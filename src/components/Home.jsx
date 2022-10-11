@@ -30,12 +30,14 @@ const Home = () => {
                 </div>
             </div>
             <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
-                <div className='grid gap-8 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8'>
+                <h3 className="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl text-gray-800 py-16" >Do You Want To Justify Yourself ?</h3>
+                <div className='grid gap-8 row-gap-5 mb-8 lg:grid-cols-4 lg:row-gap-8'>
+
                     {
-                        // quiz.map.data(q =>  <HomeQuiz
-                        //      key={q.id}
-                        //      quiz = {quiz}
-                        // ></HomeQuiz> )
+                        Object.values(quiz).map(q => <HomeQuiz
+                            key={q.id}
+                            quizes={q}
+                        ></HomeQuiz>)
                     }
                 </div>
             </div>
