@@ -1,7 +1,7 @@
-#Project Name
+#Project Name:
 Quiz Hero-An Quiz App 
 
-#live website link
+#live website link:
 ----
 
 # Three Features:
