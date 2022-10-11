@@ -47,12 +47,12 @@ const Header = () => {
                     </li>
                     <li>
                         <Link
-                            to='/cart'
-                            aria-label='Cart'
-                            title='Cart'
+                            to='/chart'
+                            aria-label='Chart'
+                            title='Chart'
                             className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                         >
-                            <p> Cart</p>
+                            <p> Chart</p>
                         </Link>
                     </li>
                 </ul>
@@ -132,12 +132,12 @@ const Header = () => {
                                         </li>
                                         <li>
                                             <Link
-                                                to='/cart'
-                                                aria-label='Cart'
-                                                title='Cart'
+                                                to='/chart'
+                                                aria-label='Chart'
+                                                title='Chart'
                                                 className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                                             >
-                                                <p> Cart</p>
+                                                <p> Chart</p>
                                             </Link>
                                         </li>
                                     </ul>
