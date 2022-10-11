@@ -4,8 +4,8 @@ import HomeQuiz from "./HomeQuiz";
 import { QuizContext } from "./Root";
 
 const Home = () => {
-    const quizes = useContext(QuizContext);
-    console.log(quizes);
+    const quiz = useContext(QuizContext);
+    console.log(quiz);
     return (
         <section>
             <div className="bg-gray-100">
@@ -32,10 +32,10 @@ const Home = () => {
             <div className='px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
                 <div className='grid gap-8 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8'>
                     {
-                        Object.quizes.map(quiz =>  <HomeQuiz
-                             key={quizes.id}
-                             quizes = {quizes}
-                        ></HomeQuiz> )
+                        // quiz.map.data(q =>  <HomeQuiz
+                        //      key={q.id}
+                        //      quiz = {quiz}
+                        // ></HomeQuiz> )
                     }
                 </div>
             </div>
