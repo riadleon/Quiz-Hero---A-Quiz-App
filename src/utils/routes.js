@@ -5,6 +5,7 @@ import Home from "../components/Home";
 import HomeQuiz from "../components/HomeQuiz";
 import { quizDataLoader } from "../components/loaders/getQuizData";
 import Root from "../components/Root";
+import Chart from '../components/Chart'
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,9 @@ const router = createBrowserRouter([
             },
             {
                 path: '/blog', element: <Blog></Blog>
+            },
+            {
+                path: '/chart', element: <Chart></Chart>
             },
         ],
     },
