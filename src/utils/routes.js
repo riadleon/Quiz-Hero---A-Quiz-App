@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../components/Home";
+import { quizDataLoader } from "../components/loaders/getQuizData";
 import Root from "../components/Root";
 
 
@@ -7,10 +8,14 @@ const router = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>,
-        children : [
+        loader: quizDataLoader,
+        children: [
             {
-                path:'/', element: <Home></Home>
-            }
+                path: '/', element: <Home></Home>
+            },
+            {
+                path: '/home', element: <Home></Home>
+            },
         ],
     },
 ])
