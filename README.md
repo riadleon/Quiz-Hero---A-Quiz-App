@@ -2,11 +2,11 @@
 
 
 
-Quiz Hero-An Quiz App 
+Quiz Hero - A Quiz App 
 
 
 
-#live website link:
+#live website link: https://quiz-hero-react-router-contextapi-a9.netlify.app/
 ----
 
 # Three Features:
