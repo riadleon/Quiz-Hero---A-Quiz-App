@@ -5,7 +5,6 @@ import { QuizContext } from "./Root";
 
 const Home = () => {
     const quiz = useContext(QuizContext);
-    console.log(quiz);
     return (
         <section>
             <div className="bg-gray-100">
