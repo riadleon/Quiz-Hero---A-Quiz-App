@@ -14,12 +14,17 @@ const HomeQuiz = ({ quizes }) => {
       <p className='mb-2 text-xl font-bold leading-none sm:text-2xl'>{name}</p>
       <p className='text-gray-700 '> {total} questions
       </p>
-      <button
-        type='button'
-        className='px-8 block w-full mt-4 py-3 font-semibold rounded-full bg-cyan-200 text-gray-800 hover:bg-cyan-400'
-      >
-        <Link to={`/quizes/${id}`}> Start Practice </Link>
-      </button>
+
+
+
+      <Link to={`/quizes/${id}`}>
+        <button
+          type='button'
+          className='px-8 block w-full mt-4 py-3 font-semibold rounded-full bg-cyan-200 text-gray-800 hover:bg-cyan-400'
+        >
+          Start Practice
+        </button>
+      </Link>
     </div>
   );
 };
